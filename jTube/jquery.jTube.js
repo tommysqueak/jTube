@@ -66,6 +66,9 @@
 				}
 			} else if(options.request == 'search') {
 				youtubeUrl += 'videos?q='+options.requestValue+'&';
+				if(options.category){
+					youtubeUrl += 'category='+options.category+'&';
+				}
 			} else if(options.request == 'feed') {
 				youtubeUrl += 'standardfeeds/'+options.requestValue+'?';
 			} else if(options.request == 'playlist') {
