@@ -398,12 +398,12 @@
 			var videoUrl = video+"&";
 			videoUrl += 'autoplay='+(options.autoplay?1:0);
 			videoUrl += '&fs='+(options.fullscreen?1:0);
-			videoUrl += '&rl=1'+(options.related?1:0);
-			videoUrl += '&loop=1'+(options.loop?1:0);
-			videoUrl += '&disablekb=0'+(options.keyboard?0:1);
-			videoUrl += '&egm=1'+(options.genie?1:0);
-			videoUrl += '&border=1'+(options.border?1:0);
-			videoUrl += '&hd=1'+(options.highdef?1:0);
+			videoUrl += '&rl='+(options.related?1:0);
+			videoUrl += '&loop='+(options.loop?1:0);
+			videoUrl += '&disablekb='+(options.keyboard?0:1);
+			videoUrl += '&egm='+(options.genie?1:0);
+			videoUrl += '&border='+(options.border?1:0);
+			videoUrl += '&hd='+(options.highdef?1:0);
 			videoUrl += '&start='+options.start;
 			
 			var videoEmbed = '<object width="'+options.width+'" height="'+options.height+'">';
